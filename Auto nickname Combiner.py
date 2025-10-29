@@ -1,9 +1,7 @@
 import random
 
-# To store nickname history during the session
 nickname_history = []
 
-# Simple nickname meaning generator (optional, can be expanded)
 fun_meanings = [
     "The Creative One", "Secret Code", "Sassy Mix", "Energetic Spirit", "Mysterious Vibes",
     "Friendly Star", "Dynamic Duo", "Playful Wonder", "Bold Inventor"
@@ -60,7 +58,6 @@ def main():
         except ValueError:
             print("Invalid input; defaulting to style 1.")
             style = 1
-        # normalize inputs
         name1 = name1.strip().capitalize()
         name2 = name2.strip().capitalize()
         nickname = generate_nickname(name1, name2, style)
@@ -77,4 +74,5 @@ def main():
             break
 
 if __name__ == "__main__":
+
     main()
