@@ -15,7 +15,6 @@ event_mapping = {
     "casual outing": ("green", "Stay fresh with olive or sage tones and denim 👟"),
 }
 
-# Main logic example
 user_type = input("Are you dressing for mood or event? (mood/event): ").strip().lower()
 if user_type == "mood":
     mood = input("Describe your mood: ").strip().lower()
@@ -28,10 +27,10 @@ elif user_type == "event":
 else:
     print("Please enter 'mood' or 'event'.")
 
-# Optional: Random tip
 style_tips = [
     "Mix neutrals with one accent color for a balanced look.",
     "Accessorize with statement jewelry to elevate any outfit.",
     "Layering gives depth, especially in winter months.",
 ]
 print("Tip:", random.choice(style_tips))
+
