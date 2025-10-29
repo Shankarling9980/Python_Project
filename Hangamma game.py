@@ -1,9 +1,7 @@
 import random
 
-# List of words to guess from
 words = ["apple", "banana", "mango", "grape", "orange"]
 
-# Choose a random word
 word = random.choice(words)
 guessed_letters = []
 chances = 6
@@ -42,4 +40,5 @@ while chances > 0:
         break
 
 if chances == 0:
+
     print("\n😞 You lost! The word was:", word)
