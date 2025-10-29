@@ -1,5 +1,4 @@
 def mood_detector():
-    # Dictionary of moods, emojis, and responses
     moods = {
         "happy":    ("😊", "That's great to hear!"),
         "sad":      ("🤗", "Cheer up! Here's a hug"),
@@ -31,4 +30,5 @@ def mood_detector():
             print("Sorry, I couldn't detect your mood. Try words like 'happy', 'sad', 'angry', 'tired', 'excited','stressed', 'bored'.")
             
 if __name__ == "__main__":
+
     mood_detector()
