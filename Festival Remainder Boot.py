@@ -1,7 +1,6 @@
 import json
 from datetime import datetime, timedelta
 
-# Data storage
 FESTIVAL_FILE = "festivals.json"
 
 def load_festivals():
@@ -79,4 +78,5 @@ def main():
             print("Invalid option.")
 
 if __name__ == "__main__":
+
     main()
