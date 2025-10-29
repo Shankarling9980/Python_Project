@@ -1,5 +1,3 @@
-# Basic Emotion Detection App
-
 emotion_dict = {
     'happy': 'joy',
     'glad': 'joy',
@@ -34,4 +32,5 @@ while True:
         emoji = emoji_dict[detected_emotion]
         print(f"Detected Emotion: {detected_emotion.title()} {emoji}")
     else:
+
         print("No major emotion detected. Try expressing more feeling!")
